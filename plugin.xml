@@ -1,7 +1,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-aes-crypt"
         version="1.0.0">
-    <name>AESDecrypt</name>
+    <name>AESCrypt</name>
     <js-module src="www/AESCrypt.js" name="AESCrypt">
         <clobbers target="AESCrypt" />
     </js-module>
