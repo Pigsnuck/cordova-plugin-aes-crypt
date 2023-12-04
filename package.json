@@ -1,0 +1,13 @@
+{
+  "name": "cordova-plugin-aes-crypt",
+  "version": "1.0.0",
+  "description": "A Cordova plugin for AES encryption and decryption",
+  "cordova": {
+    "id": "cordova-plugin-aes-crypt",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
