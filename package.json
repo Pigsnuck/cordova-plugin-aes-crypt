@@ -8,6 +8,8 @@
 			"ios"
 		]
 	},
+	"repository": "https://github.com/Pigsnuck/cordova-plugin-aes-crypt.git",
+	"issue": "https://github.com/Pigsnuck/cordova-plugin-aes-crypt/issues/",
 	"author": "Craig Payne",
 	"license": "MIT"
 }
