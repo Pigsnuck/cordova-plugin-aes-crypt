@@ -1,13 +1,13 @@
 #import <Cordova/CDV.h>
 #import <CommonCrypto/CommonCryptor.h>
 
-@interface AESCrypt : CDVPlugin
+@interface PgmAESCrypt : CDVPlugin
 
 - (void)decrypt:(CDVInvokedUrlCommand*)command;
 
 @end
 
-@implementation AESCrypt
+@implementation PgmAESCrypt
 
 - (void)decrypt:(CDVInvokedUrlCommand*)command {
     NSString *base64EncodedData = [command.arguments objectAtIndex:0];
