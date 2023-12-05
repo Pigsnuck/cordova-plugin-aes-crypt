@@ -6,6 +6,6 @@
         <clobbers target="PgmAESCrypt" />
     </js-module>
     <platform name="ios">
-        <source-file src="src/ios/PgmAESCrypt.m" />
-    </platform>
+		<source-file src="src/ios/PgmAESCrypt.m" />
+	</platform>
 </plugin>
