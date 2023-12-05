@@ -1,11 +1,11 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-aes-crypt"
         version="1.0.0">
-    <name>AESCrypt</name>
-    <js-module src="www/AESCrypt.js" name="AESCrypt">
-        <clobbers target="AESCrypt" />
+    <name>PgmAESCrypt</name>
+    <js-module src="www/PgmAESCrypt.js" name="PgmAESCrypt">
+        <clobbers target="PgmAESCrypt" />
     </js-module>
     <platform name="ios">
-        <source-file src="src/ios/AESCrypt.m" />
+        <source-file src="src/ios/PgmAESCrypt.m" />
     </platform>
 </plugin>
