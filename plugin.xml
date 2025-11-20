@@ -1,6 +1,6 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-aes-crypt"
-        version="1.0.0">
+        version="1.0.1">
     <name>PgmAESCrypt</name>
     <js-module src="www/PgmAESCrypt.js" name="PgmAESCrypt">
         <clobbers target="PgmAESCrypt" />
